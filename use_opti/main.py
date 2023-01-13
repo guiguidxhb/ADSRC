@@ -206,7 +206,6 @@ if __name__ == '__main__':
     
     # 导入神经网络训练的模型参数
     Model_path = 'new_model_dark.pth'  
-    Model_xz_path = '2class.pth'
     Model_flip_path = 'with_noise.pth'
     net = initial(Model_path)
     #net_xz = initial_xz(Model_xz_path)
