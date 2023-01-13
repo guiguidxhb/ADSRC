@@ -205,10 +205,9 @@ if __name__ == '__main__':
     total_cnt = 0
     
     # 导入神经网络训练的模型参数
-    Model_path = 'new_model_dark.pth'  
-    Model_flip_path = 'with_noise.pth'
+    Model_path = 'SegForAorta.pth'  
+    Model_flip_path = 'SefForDissection.pth'
     net = initial(Model_path)
-    #net_xz = initial_xz(Model_xz_path)
     net_flip = initial_flip(Model_flip_path)
       
     for filename in listdir(root_dir):
